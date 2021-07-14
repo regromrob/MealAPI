@@ -10,7 +10,7 @@ function getMeal(){
     .then(res => res.json()) 
     .then(data =>{
            console.log(data) 
-
+            
            let mealName= data.meals[0].strMeal
            let mealType= data.meals[0].strCategory
            let picture= data.meals[0].strMealThumb
